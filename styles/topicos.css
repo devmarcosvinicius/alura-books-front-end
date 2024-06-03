@@ -16,8 +16,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 2.8rem 1rem;
     margin-bottom: 1.5rem;
+    padding: 0 2rem;
 }
 
 .topicos__link {
@@ -65,7 +67,7 @@
 
     .topicos__lista {
         margin: 0 28rem;
-        width: 50%;
+        width: 30%;
     }
 
     .topicos__link {

@@ -2,7 +2,7 @@
     background-color: var(--branco);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
 }
 
@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.container__link {
+    padding-right: 1.5rem;
+}
+
 .container__imagem {
     padding: 1em;
 }
@@ -42,6 +46,7 @@
     position: absolute;
     top: 100%;
     width: 70vw;
+    margin-left: 3.563rem;
 }
 
 .container__botao {
@@ -80,6 +85,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho {
+    }
+
     .cabecalho__menu-hamburger {
         display: none;
     }

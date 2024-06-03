@@ -107,11 +107,7 @@
     }
 
     .swiper-slide img {
-        width: 60%;
-    }
-
-    .swiper-slide,  .swiper-slide-next {
-        margin-right: 0;
+        width: 100%;
     }
 
     .swiper-wrapper {
